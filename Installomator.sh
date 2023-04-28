@@ -6692,7 +6692,7 @@ splashtopstreamer)
     name="Splashtop_Streamer_Mac_DEPLOY_INSTALLER_v3.5.6.0"
     type="pkgInDmg"
     downloadURL="https://github.com/Zhero-Cybersecurity-IT-Support/FileShare/raw/main/Splashtop_Streamer_Mac_DEPLOY_INSTALLER_v3.5.6.0%20(1).dmg"
-    expectedTeamID="CPQQ3AW49Y"
+    expectedTeamID="  "
     ;;
 *)
     # unknown label

@@ -24,6 +24,8 @@ if($NCentralCode){
             } else {
                 Write-Host "[SKIP] Process 'unins000.exe' not found."
             }
+            # Start sleep to ensure last executions are done
+            Start-Sleep -Seconds 60
         }
     } else {
         Write-Host "Failed to start the removal process."

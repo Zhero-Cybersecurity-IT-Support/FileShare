@@ -13,7 +13,7 @@ if($NCentralCode){
         if ($AgentRemovalProcess.WaitForExit(120000)) {
             Write-Host "[SUCCESS] Removal complete."
         } else {
-            $AgentRemovalProcess.Kill()
+            # $AgentRemovalProcess.Kill()
             Write-Host "[CONTINUE] Stopped uninstallation and continuing."
             # Now close the Uninstall window if present - solving a bug N-able's uninstaller has
             $BugFix = Get-Process -Name "unins000" -ErrorAction SilentlyContinue

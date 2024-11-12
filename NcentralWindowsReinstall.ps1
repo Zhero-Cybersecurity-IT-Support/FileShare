@@ -18,7 +18,7 @@ if (-not (Test-Path -Path "C:\AutomateResources")) {
 }
 try {
     $ProgressPreference = 'SilentlyContinue'
-    Invoke-WebRequest -Uri "https://monitoring.zhero.co.uk/download/2024.1.0.17/winnt/N-central/WindowsAgentSetup.exe" -OutFile "C:\AutomateResources\WindowsAgentSetup.exe" -ErrorAction SilentlyContinue
+    Invoke-WebRequest -Uri "https://ncod659.n-able.com/download/2024.4.0.11/winnt/N-central/WindowsAgentSetup.exe" -OutFile "C:\AutomateResources\WindowsAgentSetup.exe" -ErrorAction SilentlyContinue
 }
 catch {
     Write-Host "An error has occured: $_"

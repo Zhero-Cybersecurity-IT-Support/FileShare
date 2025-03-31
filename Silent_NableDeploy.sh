@@ -49,7 +49,7 @@ SCRIPTURL="https://$SERVERURL/download/1.6.0.0/macosx/N-central/silent_install.s
 
 echo "SCRIPT URL: $SCRIPTURL"
 
-DMGURL="https:/$SERVERURL/download/1.8.0.460/macosx/N-central/Install_N-central_Agent_v1.8.0.460.dmg"
+DMGURL="https:/$SERVERURL/download/1.11.1.564/macosx/N-central/Install_N-central_Agent_v1.11.1.564.dmg"
 
 echo "DMG URL: $DMGURL"
 
